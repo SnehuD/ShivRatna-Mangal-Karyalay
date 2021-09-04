@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/Style_2.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+ul li {
+            margin-bottom: 100x;
+            font-weight: bold;
+        }
+	.navbar-dark .navbar-nav .nav-link {
+            color: black;
+        }
+		.navbar {
+            background-color: pink;
+        }
+</style>
+<body>
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#" style="color:red;font-family:sans-serif"><b>ShivRatna
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </b></a>  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto"  >
+        <li class="nav-item ">
+          <a class="nav-link " href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html"><span class="glyphicon glyphicon-cutlery"></span> Menu</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="packages.html"> <span class="glyphicon glyphicon-briefcase"></span> Packages</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="Addons.html"><span class="glyphicon glyphicon-plus"></span> Addons</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link "  href="gallery.html" ><span class="glyphicon glyphicon-picture"></span> Gallery</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="testimonials.html"><span class="glyphicon glyphicon-edit"></span> Testimonials</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link " href="abt.html"><span class="glyphicon glyphicon-info-sign"></span> About</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link " href="contact.html"><span class="glyphicon glyphicon-phone-alt"></span> Contact</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link " href="photo_albums.html"><span class="glyphicon glyphicon-paperclip"></span> Photo albums</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link active" href="signup.html"><span class="glyphicon glyphicon-user"></span> signup</a>
+        </li>
+        &nbsp;
+        <li class="nav-item">
+          <a class="nav-link" href="doc_req.html"> <span class="glyphicon glyphicon-file"></span> Documents</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <hr><br><br>
+
+
+    <h2>CREATE YOUR ACCOUNT</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+<hr><br><br>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<!--footer-->
+<div class="footer-section">
+  <div class="container">
+    <div class="footer-top">
+      <p> &copy; 2015 My Wedding . All Rights Reserved | Design by 
+        <a href="team.html">TEAM27</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
