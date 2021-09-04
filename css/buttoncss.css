@@ -1,0 +1,41 @@
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color:rgb(240, 132, 150);
+    border: 50px;
+    border-radius: 15px;
+    box-shadow: 0 9px grey;
+  }
+  
+  .button:hover 
+  {
+    background-color:red;
+  }
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    color: #000;
+
+  }
+  @media screen and (max-width: 500px) {
+    .button {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+      stop-opacity: unset;
+    }
+   
+  }
+  @media only screen and (max-width: 500px) {
+    img {
+      width: 100%;
+     
+    }
+  }

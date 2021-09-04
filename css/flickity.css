@@ -1,0 +1,21 @@
+/* external css: flickity.css */
+
+
+* { box-sizing: border-box; }
+
+
+.carousel {
+  background:none;
+ 
+}
+
+.carousel img {
+ 
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
+}

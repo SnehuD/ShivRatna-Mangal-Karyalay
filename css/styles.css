@@ -1,0 +1,55 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:rgb(238, 206, 206);
+    font-family: cursive;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:wheat;
+  }
+ 
+  .nav
+        {
+            background-color:#e5e5e5;
+           top:57000%;
+            border: 3px solid palevioletred;
+               border-radius: 900px;
+               text-align:center;
+             margin:auto;
+                 width: 60%;
+              padding: 10px;
+              font-family: cursive;
+        }
+           
+         .center {
+           display: flex;
+          justify-content: center;
+          align-items: center;
+        height: 100px;
+       }
+       .img
+   {
+         width: 200px;
+         height: 200px;
+   }
+      
+      .h1,body
+      {
+          font-family: cursive;
+          font-size: 50px;
+
+      }
+      

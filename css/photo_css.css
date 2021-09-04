@@ -1,0 +1,20 @@
+.item{
+    transition:.5s ease-in-out;
+}
+.item:hover{
+    filter: brightness(50%);
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color:rgb(240, 132, 150);
+    border: 50px;
+    border-radius: 15px;
+    box-shadow: 0 9px grey;
+  }

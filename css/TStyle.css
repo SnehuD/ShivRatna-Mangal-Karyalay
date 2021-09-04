@@ -1,0 +1,87 @@
+html, body{
+	margin:0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+}
+body a {
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+	text-decoration:none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+} 
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+
+/*-- common css --*/
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+.ch-grid:after {
+	clear: both;
+}
+.ch-grid li {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 0 20px;
+}
+/*-- //team --*/
+
+@media (max-width: 1080px){ 
+	.nav > li > a {
+		padding: 22px 17px !important;
+	}
+	.team {
+	  padding: 65px 0;
+	}
+}	
+@media (max-width: 800px){
+	.team {
+		padding: 55px 0;
+	}
+}
+@media (max-width: 640px){
+	.team {
+		padding: 40px 0;
+	}
+}    
+@media (max-width: 480px){
+	.team{
+		padding:35px 0;
+	}
+}    
+

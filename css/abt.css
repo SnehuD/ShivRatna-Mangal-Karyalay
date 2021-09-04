@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Sail-Regular';
+    src:url(../fonts/Sail-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	padding:0 0;
+	margin:0 0;
+}
+p{
+	padding:0 0;
+	margin:0 0;
+}
+ul{
+	padding:0 0;
+	margin:0 0;	
+}
+body{
+	padding:0 0;
+	margin:0 0; 
+	font-family: 'OpenSans-Regular'
+}
+
+.about {
+    padding: 4em 0;
+	text-align: center;
+}
+.about-head h2 {
+    font-size: 3.5em;
+    color: #652840;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+}
+.about-head p {
+    font-size: 1em;
+    color: #222;
+    margin-top: 0.5em;
+}
+.about-grids {
+    margin-top: 3em;
+}
+/**about**/
+.header.head-top {
+    min-height: 108px;
+}
+.OurLove-grid iframe {
+    width: 100%;
+    height: 260px;
+}
+.OurLove-section h2 {
+    font-size: 3.5em;
+    color: #652840;
+    font-family: 'Sail-Regular';
+    text-transform: capitalize;
+	text-align: center;
+}
+.OurLove-grid1 h4 {
+    font-size: 1.5em;
+    color: #bf9280;
+}
+.OurLove-grid1 p {
+    font-size: 1em;
+    line-height: 1.8em;
+    padding: 1em 0;
+    color: #999;
+}
+.OurLove-grids {
+    margin-top: 3em;
+}
+.OurLove-section {
+    padding: 4em 0;
+}
+.team-grids {
+  position: relative;
+}
+.team h3 {
+  font-size: 3.5em;
+  color: #652840;
+  font-family: 'Sail-Regular';
+  text-transform: capitalize;
+}
+.team {
+  padding:0em 0em 4em;
+    text-align: center;
+}
+.team-info {
+  margin-top: 3em;
+}
+.team-grids a {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+.captn h4 {
+  color: #fff;
+  margin: .1em 0 0.5em;
+  font-size: 1.5em;
+  
+}
+.captn p {
+  color: #fff;
+    font-size:1em;
+}
+.team-grids a .captn {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  font-weight: 800;
+  color: #ffffff;
+  position: absolute;
+  bottom: -80%;
+  right: 2%;
+  background-color: rgba(51, 51, 51, 0.68);
+  padding: 5% 10%;
+  text-align: center;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.team-grids a:hover .captn {
+  width: 100%;
+  bottom: 0%;
+  padding: 40% 10%;
+    right: 2%;
+}
+.why-choose {
+    padding: 1em 0 4em;
+    text-align: center;
+}
+.why-choose h3 {
+   font-size: 3.5em;
+  color: #652840;
+  font-family: 'Sail-Regular';
+  text-transform: capitalize;
+
+}
+.choose-grid h4{
+ font-size: 1.5em;
+  color: #bf9280;
+  text-transform: capitalize;
+}
+.choose-grid p{
+	font-size:1em;
+	line-height:1.8em;
+	color:#999;
+	margin:1em 0 0
+}
+.choose-grids {
+  margin-top: 3em;
+}

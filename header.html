@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/Style_2.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+    <style>
+        .carousel-cell {
+            width: 100%;
+        }
+        /* cell number */
+        
+        .carousel-cell:before {
+            display: block;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+        
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+        /* Create four equal columns that sits next to each other */
+        
+        .column {
+            -ms-flex: 25%;
+            /* IE10 */
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+        
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        
+        @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+        
+        .active {
+            background-color: papayawhip;
+        }
+        
+        ul li {
+            margin-bottom: 100x;
+            font-weight: bold;
+        }
+        
+        .navbar {
+            background-color: pink;
+        }
+    </style>
+
+</head>
+<title>Main page</title>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Shivratna</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link active" href="mainpage.html"><span class="glyphicon glyphicon-home"></span>&emsp;Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html"><span class="glyphicon glyphicon-cutlery"></span>&emsp;Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="packages.html"> <span class="glyphicon glyphicon-briefcase"></span>&emsp;Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Addons.html"><span class="glyphicon glyphicon-plus"></span>&emsp;Addons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html" class="active"><span class="glyphicon glyphicon-picture"></span>&emsp;Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonials.html"><span class="glyphicon glyphicon-edit"></span>&emsp;Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><span class="glyphicon glyphicon-info-sign"></span>&emsp;about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><span class="glyphicon glyphicon-phone-alt"></span>&emsp;Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photo_albums.html"><span class="glyphicon glyphicon-paperclip"></span>&emsp;Photo albums</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html"><span class="glyphicon glyphicon-user"></span>&emsp;signup</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="doc_req.html"> <span class="glyphicon glyphicon-earphone"></span>&emsp;book Now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+
+</html>

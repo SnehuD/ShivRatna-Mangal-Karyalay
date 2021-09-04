@@ -1,0 +1,13 @@
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-cell {
+    width: 100%;
+}
+/* cell number */
+
+.carousel-cell:before {
+    display: block;
+}
