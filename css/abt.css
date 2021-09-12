@@ -8,10 +8,6 @@
 }
 body a{
     transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
 	padding:0 0;
@@ -33,7 +29,7 @@ body{
 
 .about {
     padding: 4em 0;
-	text-align: center;
+	  text-align: center;
 }
 .about-head h2 {
     font-size: 3.5em;
@@ -62,7 +58,7 @@ body{
     color: #652840;
     font-family: 'Sail-Regular';
     text-transform: capitalize;
-	text-align: center;
+	  text-align: center;
 }
 .OurLove-grid1 h4 {
     font-size: 1.5em;
@@ -101,16 +97,6 @@ body{
 	position: relative;
 	display: block;
 }
-.captn h4 {
-  color: #fff;
-  margin: .1em 0 0.5em;
-  font-size: 1.5em;
-  
-}
-.captn p {
-  color: #fff;
-    font-size:1em;
-}
 .team-grids a .captn {
   display: inline-block;
   height: 100%;
@@ -123,11 +109,6 @@ body{
   background-color: rgba(51, 51, 51, 0.68);
   padding: 5% 10%;
   text-align: center;
-  -o-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 .team-grids a:hover .captn {
   width: 100%;
