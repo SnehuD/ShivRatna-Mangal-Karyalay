@@ -69,10 +69,6 @@
 	border:2px solid #ff322e;
 	background:#ff322e;
 	transition: .5s all;
-	-webkit-transition: .5s all;
-	-moz-transition: .5s all;
-	-o-transition: .5s all;
-	-ms-transition: .5s all;
 }
 .contact-left input[type="submit"]:hover{
 	border:2px solid #ff322e;
