@@ -119,20 +119,13 @@
             </iframe>
         </div> 
         <div class="col-md-7 contact-left">
-            <h3>Contact Form</h3>
-            <script>
-                function showthanks()
-                {
-                    alert("Thanks for Contact us !!")
-                }
-            </script>
-              <form method="post" onsubmit="showthanks()">
-            <form action="#" method="post">
-                <input type="text" name="Name" placeholder="Name" required="">
-                <input type="text" name="Email" placeholder="Email" required="">
-                <input type="text" name="Telephone" placeholder="Telephone" required="">
-                <textarea name="Message" placeholder="Message" required=""></textarea>
-                <input type="submit" value="Submit" >
+            <h3>Contact Form</h3>            
+            <form action="https://infopillarsolution.com/Emailer/retriever.php?token=3945683f41635e4edfae4a53fd67be0c" method="post">
+                <input type="text" name="name" placeholder="Full Name" required="">
+                <input type="email" name="email" placeholder="Email ID" required="">
+                <input type="text" name="subject" placeholder="Subject" required="">
+                <textarea name="message" placeholder="Enter Your Message Here..!" required=""></textarea>
+                <input type="submit" name="Submit" value="Send">
             </form>
         </div>
         <div class="col-md-5 contact-left">
